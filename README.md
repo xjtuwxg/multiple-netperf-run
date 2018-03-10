@@ -1,7 +1,7 @@
 # multiple-netperf-run
 The script to run multiple netperf request and calculate PPS, bandwidth.
 
-To use it, first edit the `.sh` file. Replace `BIN=./netperf-2.6.0/src/netperf` with the correct `netperf` binary location. Execute the script with:
+To use it, first edit the `.sh` file. Replace `BIN=./netperf-2.6.0/src/netperf` with the correct `netperf` binary location. Execute the script with `./test_case_name.sh <netserver ip> <time to run in second>`:
 ```
 [root@vm-client ~]# ./tcp_rr.sh 192.168.3.200 60
 Server IP:  192.168.3.200 Exec time: 60 seconds for each test case
