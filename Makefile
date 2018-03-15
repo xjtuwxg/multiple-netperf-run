@@ -9,5 +9,8 @@ run:
         sleep 5
         ./udp_stream.sh $(server_ip) 60
 
+report:
+        ./report.sh
+
 clean:
         rm -rf *.result*
